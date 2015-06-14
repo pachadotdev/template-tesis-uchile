@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: plantilla-en-espaniol.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: capitulos/prefacio-ejemplo.aux
+A level-1 auxiliary file: capitulos/cap1-ejemplo.aux
+A level-1 auxiliary file: capitulos/cap2-ejemplo.aux
+A level-1 auxiliary file: capitulos/apendice-ejemplo.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: plantilla-en-espaniol-blx.bib
+Database file #2: referencias/biblioteca.bib
+Biblatex version: 2.8
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 2 entries,
+            6047 wiz_defined-function locations,
+            1138 strings with 8368 characters,
+and the built_in function-call counts, 4776 in all, are:
+= -- 217
+> -- 167
+< -- 40
++ -- 80
+- -- 58
+* -- 280
+:= -- 487
+add.period$ -- 0
+call.type$ -- 2
+change.case$ -- 1
+chr.to.int$ -- 34
+cite$ -- 2
+duplicate$ -- 418
+empty$ -- 454
+format.name$ -- 73
+if$ -- 1084
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 51
+num.names$ -- 58
+pop$ -- 379
+preamble$ -- 1
+purify$ -- 28
+quote$ -- 0
+skip$ -- 300
+stack$ -- 0
+substring$ -- 207
+swap$ -- 128
+text.length$ -- 43
+text.prefix$ -- 1
+top$ -- 1
+type$ -- 64
+warning$ -- 0
+while$ -- 67
+width$ -- 0
+write$ -- 48

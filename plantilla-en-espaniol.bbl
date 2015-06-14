@@ -1,0 +1,51 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{bock2010stats}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bock}{B.}%
+     {David~E}{D.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Velleman}{V.}%
+     {Paul~F}{P.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {De~Veaux}{D.~V.}%
+     {Richard~D}{R.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Addison-Wesley}%
+  }
+  \strng{namehash}{BDE+1}
+  \strng{fullhash}{BDEVPFDVRD1}
+  \field{labelyear}{2010}
+  \field{sortinit}{B}
+  \field{title}{Stats: Modeling the world}
+  \field{year}{2010}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
