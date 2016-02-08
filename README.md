@@ -12,3 +12,7 @@ En esta plantilla incluyo:
 * Ejemplos de cómo insertar tablas, imágenes, notas al pie, comentarios, etc y cómo citar papers o libros en Latex
 
 Como complemento a esta plantilla también subí un manual express de Latex (revisado) en base a las guías que hice para mis ayudantías: https://github.com/pachamaltese/tutorial-express-latex
+
+My website visit [http://pachamaltese.github.io](http://pachamaltese.github.io)
+
+-![alt text](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png "Under Creative Commons license")
