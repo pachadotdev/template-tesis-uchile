@@ -13,6 +13,8 @@ En esta plantilla incluyo:
 
 Como complemento a esta plantilla también subí un manual express de Latex (revisado) en base a las guías que hice para mis ayudantías: https://github.com/pachamaltese/tutorial-express-latex
 
-My website visit [http://pachamaltese.github.io](http://pachamaltese.github.io)
+Visit [http://pachamaltese.github.io](http://pachamaltese.github.io)
 
--![alt text](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png "Under Creative Commons license")
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+![alt text](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png "Under Creative Commons license")
