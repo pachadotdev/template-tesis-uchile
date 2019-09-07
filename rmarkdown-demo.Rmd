@@ -1,0 +1,38 @@
+---
+titulo: TESIS CON R RMARKDOWN, FALTAN INDICES Y TRUCOS CON BABEL
+subtitulo: SUBTITULO DE LA TESIS
+trabajoygrado: TESIS PARA OPTAR AL GRADO DE
+autoruno: AUTOR UNO
+facultad: LA FACULTAD
+departamento: EL DEPARTAMENTO
+profguia: PROFESOR GUIA
+profcoguia: PROFESOR CO-GUIA
+profintuno: PROFESOR COMISION UNO
+profintdos: PROFESOR COMISION DOS
+profinttres: PROFESOR COMISION TRES
+ciudad: CIUDAD
+pais: PAIS
+proyecto: FONDECYT NUMERO 123
+mes: MES
+anio: ANIO
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    template: plantilla-en-espaniol-2.tex
+    keep_tex: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r child = 'capitulos/cap1-ejemplo.Rmd', eval = T}
+```
+
+```{r child = 'capitulos/cap2-ejemplo.Rmd', eval = T}
+```
+
+\appendix
+
+```{r child = 'capitulos/apendice-ejemplo.Rmd', eval = T}
+```
