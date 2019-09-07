@@ -62,16 +62,20 @@ $if(lang)$
   \usepackage[shorthands=off,$lang$]{babel}
 \fi
 $endif$
+$if(espaniol)$
+\usepackage[spanish,es-tabla]{babel}
+\decimalpoint
+$endif$
 $if(natbib)$
 \usepackage{natbib}
-\bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
 $endif$
 $if(biblatex)$
-\usepackage{biblatex}
-$if(biblio-files)$
-\bibliography{$biblio-files$}
+\usepackage{csquotes}
+\usepackage[citestyle=authoryear-comp, bibstyle=numeric-comp, natbib=true, url=false, backend=bibtex, maxnames=2]{biblatex}
 $endif$
-$endif$
+$for(bibliography)$
+\addbibresource{$bibliography$}
+$endfor$
 $if(listings)$
 \usepackage{listings}
 $endif$
@@ -208,7 +212,7 @@ $endfor$
     \renewcommand{\baselinestretch}{1}
     \begin{center}
     \begin{tabular}{ll}
-        \multirow{3}{*}{\includegraphics[height=50pt]{figuras/escudo.pdf}}
+        \multirow{3}{*}{\includegraphics[height=80pt]{figuras/escudo.pdf}}
         &\\
         &\large{\MakeUppercase{Universidad de Chile}}\\
         &\large{\MakeUppercase{$facultad$}}\\
@@ -297,27 +301,43 @@ $endif$
 $if(lof)$
 \listoffigures
 $endif$
+
 $body$
 
 $if(natbib)$
-$if(biblio-files)$
+$if(bibliography)$
 $if(biblio-title)$
-$if(book-class)$
+$if(has-chapters)$
 \renewcommand\bibname{$biblio-title$}
 $else$
 \renewcommand\refname{$biblio-title$}
 $endif$
 $endif$
-\bibliography{$biblio-files$}
+$if(beamer)$
+\begin{frame}[allowframebreaks]{$biblio-title$}
+  \bibliographytrue
+$endif$
+  \bibliography{$for(bibliography)$$bibliography$$sep$,$endfor$}
+$if(beamer)$
+\end{frame}
+$endif$
 
 $endif$
 $endif$
 $if(biblatex)$
+$if(beamer)$
+\begin{frame}[allowframebreaks]{$biblio-title$}
+  \bibliographytrue
+  \printbibliography[heading=none]
+\end{frame}
+$else$
 \printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
+$endif$
 
 $endif$
 $for(include-after)$
 $include-after$
 
 $endfor$
+
 \end{document}

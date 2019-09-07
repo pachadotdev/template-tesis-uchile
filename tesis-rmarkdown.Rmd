@@ -1,6 +1,6 @@
 ---
-titulo: TESIS CON R RMARKDOWN, FALTAN INDICES Y TRUCOS CON BABEL
-subtitulo: SUBTITULO DE LA TESIS
+titulo: TESIS CON R RMARKDOWN, FALTA MOSTRAR BIBLIOGRAFIA
+subtitulo: SUBTITULO OPCIONAL DE LA TESIS
 trabajoygrado: TESIS PARA OPTAR AL GRADO DE
 autoruno: AUTOR UNO
 facultad: LA FACULTAD
@@ -15,11 +15,19 @@ pais: PAIS
 proyecto: FONDECYT NUMERO 123
 mes: MES
 anio: ANIO
+lof: yes
+lot: yes
+toc: yes
+espaniol: yes
+linestretch: 1.5
+papersize: letter
 output: 
   pdf_document:
-    latex_engine: xelatex
-    template: plantilla-en-espaniol-2.tex
-    keep_tex: yes
+    latex_engine: pdflatex
+    template: formato-uchile.tex
+    keep_tex: no
+    citation_package: biblatex
+  bibliography: bibliografia.bib
 ---
 
 ```{r setup, include=FALSE}
