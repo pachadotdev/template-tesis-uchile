@@ -18,3 +18,8 @@ Visit [http://pachamaltese.github.io](http://pachamaltese.github.io)
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
 ![alt text](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png "Under Creative Commons license")
+
+# LaTeX vs R Markdown
+
+Si generas el documento desde Markdown, el archivo Rmd tiene la opción de exportar a un archivo tex activada.
+Para que se muestre la bibliografía, debes compilar el archivo tex generado con la opción pdflatex + bibtex + pdflatex.

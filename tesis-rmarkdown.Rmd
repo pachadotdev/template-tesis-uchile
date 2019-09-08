@@ -1,5 +1,5 @@
 ---
-titulo: TESIS CON R RMARKDOWN, FALTA MOSTRAR BIBLIOGRAFIA
+titulo: TESIS CON R RMARKDOWN
 subtitulo: SUBTITULO OPCIONAL DE LA TESIS
 trabajoygrado: TESIS PARA OPTAR AL GRADO DE
 autoruno: AUTOR UNO
@@ -25,9 +25,9 @@ output:
   pdf_document:
     latex_engine: pdflatex
     template: formato-uchile.tex
-    keep_tex: no
+    keep_tex: yes
     citation_package: biblatex
-  bibliography: bibliografia.bib
+bibliography: bibliografia.bib
 ---
 
 ```{r setup, include=FALSE}
